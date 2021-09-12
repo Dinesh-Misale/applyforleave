@@ -1,0 +1,332 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+img{
+  display: block;
+  margin: 40px 0 0 50px;
+  
+}
+.icon-div{
+  width: 130px;
+  min-height: 100vh;
+  float: left;
+}
+
+.bocks-icon, .circle-icon, .user-icon, .sensor, .sensor-2{
+  margin: 50px 0 0 50px;
+  width: 20px;
+  color: grey;
+  display: block;
+}
+.sensor{
+  color: blue;
+}
+
+
+.navbar{
+  height: 100px;
+  width: 100%;
+  
+}
+.navbar .double-arrow-icon{
+  margin: 40px 0 0 50px;
+  color: grey;
+}
+.navbar .finger-print-icon{
+  margin-left: 70px;
+  color: blue;
+}
+.navbar h3{
+  display: inline-block;
+  margin-left: 20px;
+}
+.navbar .comment-icon{
+  margin-left: 850px;
+  color: grey;
+}
+.navbar .question-icon{
+  margin-left: 25px;
+  color: grey;
+}
+.navbar .cog-icon{
+  margin-left: 25px;
+  color: grey;
+}
+.navbar h5{
+  display: inline-block;
+  color: #FEA101;
+  margin-left: 25px;
+}
+.navbar .chevron-down-icon{
+  height: 13px;
+  margin-left: 5px;
+  color: grey;
+}
+body{
+  background-color: 	rgba(128,128,128,0.2);
+}
+.login-div{
+  background: white;
+  width: 350px;
+  height: 269px;
+  margin: 0 0 0 130px;
+  text-align: center;
+  border-radius: 5px;
+  
+}
+.login-div h1{
+  margin: 0;
+  padding-top: 50px;
+}
+.login-div h6{
+  margin: 0;
+  padding: 0 0 50px;
+  font-size: 10px;
+  color: lightgray;
+}
+.login-div button{
+  background: #40D2AC;
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+.login-div input{
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-top: 1px solid #DBDBDB;
+  outline: none;
+  margin: 20px 0 10px;
+  padding-top: 10px;
+}
+.login-div p{
+  width: 30px;
+  height: 30px;
+  padding-top: 10px;
+  border-left: 1px solid #DBDBDB;
+  position: absolute;
+  left: 380px;
+  top: 46%;
+  padding-left: 10px;
+ 
+}
+.leave-div{
+  background: white;
+  width: 350px;
+  
+  height: 260px;
+  margin: 15px 0 0 130px;
+  border-radius: 5px;
+  position: relative;
+}
+.leave-div h3{
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+.leave-div a{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+table{
+  margin-left: 20px;
+}
+table td{
+  padding-right: 40px;
+}
+table h5{
+  margin:0;
+}
+.leave-div a{
+  text-decoration: none;
+  color: #FEA101;
+}
+.leave-div button{
+  color: gray;
+  margin: 30px 0 10px 20px;
+  padding-top: 0;
+  width: 300px;
+  padding-top: 10px;
+  border: none;
+  border-top: 1px solid #DBDBDB;
+  background: transparent;
+
+}
+.final-div{
+  background: white;
+  width: 830px;
+  height: 550px;
+  border-radius: 5px;
+  position: absolute;
+  top: 100px;
+  left: 510px;
+}
+.first-half{
+  position: absolute;
+  top: 0;
+  width: 490px;
+  height: 100%;
+  
+}
+.second-half{
+  position: absolute;
+  top: 0;
+  left: 490px;
+  width: 340px;
+  height: 100%;
+  border-left: 1px solid #DBDBDB;
+  pointer-events: none;
+}
+.first-half h4{
+  display: inline-block;
+  margin: 21px 0 0 25px;
+}
+.first-half img{
+  display: inline-block;
+  margin: 21px 0 0 10px;
+  transform: translateY(5px);
+}
+.first-half .range{
+  margin: 0 5px 23px;
+  display: inline-block;
+  color: blue;
+}
+.down-2{
+  height: 12px;
+  color: grey;
+  
+  margin-left: 4px;
+}
+.first-half .firts-rotate-icon{
+  margin-left: 30px;
+  transform: rotate(90deg) ;
+  color: lightblue;
+}
+.first-half .second-rotate-icon{
+  transform: rotate(270deg);
+  color: lightblue;
+}
+.table-div span{
+  margin: 0;
+}
+.table-div h6{
+  margin:0;
+  padding-bottom: 10px;
+}
+.table-div table .text-para{
+  padding: 0;
+  display: inline-block;
+  width: 220px;
+  font-size: 10px;
+}
+.table-div table .action{
+  font-size: 15px;
+}
+.table-div hr{
+  width: 95.5%;
+  margin-left: 20px;
+  border-top: 1px solid #DBDBDB;
+}
+.second-half h5{
+  margin: 40px 0 0 40px;
+}
+.second-half h4{
+  color: #40D2AC;
+}
+.second-half .first-hr{
+  position: absolute;
+  top: 100px;
+  left: 140px;
+  transform: rotate(90deg);
+  width: 50px;
+  border-top: 1px solid #DBDBDB;
+}
+.second-half .second-hr{
+  position: absolute;
+  top: 205px;
+  left: 140px;
+  transform: rotate(90deg);
+  width: 50px;
+  border-top: 1px solid #DBDBDB;
+}
+.second-half table{
+  margin-left: 40px;
+}
+section h6{
+  margin: 20px 0 0 0;
+  padding: 20px 0 0 10px;
+}
+section p{
+  margin: 0 0 0 0;
+  padding-left: 10px;
+  font-size: 10px;
+}
+section{
+  margin-left: 40px;
+  width: 200px;
+  height: 80px;
+  border-radius: 5px;
+  background: #FFF1F1;
+  border-left: 7px solid #F26B6B;
+}
+.table-div hr{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.table-div table{
+  width: 470px;
+}
+.table-div tr{
+  height: 63.7px;
+}
+.table-div .moree{
+  width: 50px;
+  height: 10px;
+  display: inline-block;
+  
+}
+.second-half table p{
+  color: gray;
+}
+.second-half section{
+  color: #F26B6B;
+}
